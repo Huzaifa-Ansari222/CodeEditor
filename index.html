@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeEditor_by huzaifa</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/bc9f68034d.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/png" href="./image/terminal-solid.svg">
+
+</head>
+<body>
+    <div class="container">
+        <nav id="navbar"></nav>
+        <div class="left">
+            <label for="html"><div id="name-tag"><i class="fab fa-html5" style="color: #ff0000;"></i>HTML</div></label>
+            <textarea id="html-code" onkeyup="run()" spellcheck="false"></textarea>
+
+            <label for="html"><div id="name-tag"><i class="fab fa-css3-alt" style="color: #25c8ff;"></i>CSS</div></label>
+            <textarea id="css-code" onkeyup="run()" spellcheck="false"></textarea>
+            
+            <label for="html"><div id="name-tag"><i class="fab fa-js" style="color: #ffdd00;"></i>JS</div></label>
+            <textarea id="js-code" onkeyup="run()" spellcheck="false"></textarea>
+        </div>
+        <div class="right">
+            <label ><div id="name-tag1"><i class="fas fa-play" style="margin-top: 5px; color: black;"></i>Output</div></label>
+            <iframe id="output"></iframe>
+        </div>
+    </div>
+    
+
+
+</body>
+<script src="script.js"></script>
+</html>
